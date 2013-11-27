@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E3F978251846290600346EE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F978241846290600346EE1 /* main.cpp */; };
 		E3F978271846290600346EE1 /* foo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E3F978261846290600346EE1 /* foo.1 */; };
+		E3F978321846426300346EE1 /* foo.cc in Sources */ = {isa = PBXBuildFile; fileRef = E3F978301846426300346EE1 /* foo.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		E3F978211846290600346EE1 /* foo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = foo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F978241846290600346EE1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E3F978261846290600346EE1 /* foo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = foo.1; sourceTree = "<group>"; };
+		E3F978301846426300346EE1 /* foo.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = foo.cc; sourceTree = "<group>"; };
+		E3F978311846426300346EE1 /* foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				E3F978241846290600346EE1 /* main.cpp */,
 				E3F978261846290600346EE1 /* foo.1 */,
+				E3F978301846426300346EE1 /* foo.cc */,
+				E3F978311846426300346EE1 /* foo.h */,
 			);
 			path = foo;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F978321846426300346EE1 /* foo.cc in Sources */,
 				E3F978251846290600346EE1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +201,7 @@
 		E3F9782B1846290600346EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +209,7 @@
 		E3F9782C1846290600346EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
