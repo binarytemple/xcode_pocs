@@ -10,6 +10,13 @@
 		E3F978251846290600346EE1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E3F978241846290600346EE1 /* main.cpp */; };
 		E3F978271846290600346EE1 /* foo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E3F978261846290600346EE1 /* foo.1 */; };
 		E3F978321846426300346EE1 /* foo.cc in Sources */ = {isa = PBXBuildFile; fileRef = E3F978301846426300346EE1 /* foo.cc */; };
+		E3F9783C184659CA00346EE1 /* CropOp.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F97835184659CA00346EE1 /* CropOp.java */; };
+		E3F9783D184659CA00346EE1 /* Operation.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F97836184659CA00346EE1 /* Operation.java */; };
+		E3F9783E184659CA00346EE1 /* Opinst.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F97837184659CA00346EE1 /* Opinst.java */; };
+		E3F9783F184659CA00346EE1 /* Opstack.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F97838184659CA00346EE1 /* Opstack.java */; };
+		E3F97840184659CA00346EE1 /* ResizeOp.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F97839184659CA00346EE1 /* ResizeOp.java */; };
+		E3F97841184659CA00346EE1 /* TestLibrary.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F9783A184659CA00346EE1 /* TestLibrary.java */; };
+		E3F97842184659CA00346EE1 /* TextOp.java in Sources */ = {isa = PBXBuildFile; fileRef = E3F9783B184659CA00346EE1 /* TextOp.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +38,13 @@
 		E3F978261846290600346EE1 /* foo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = foo.1; sourceTree = "<group>"; };
 		E3F978301846426300346EE1 /* foo.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = foo.cc; sourceTree = "<group>"; };
 		E3F978311846426300346EE1 /* foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
+		E3F97835184659CA00346EE1 /* CropOp.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CropOp.java; sourceTree = "<group>"; };
+		E3F97836184659CA00346EE1 /* Operation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Operation.java; sourceTree = "<group>"; };
+		E3F97837184659CA00346EE1 /* Opinst.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Opinst.java; sourceTree = "<group>"; };
+		E3F97838184659CA00346EE1 /* Opstack.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Opstack.java; sourceTree = "<group>"; };
+		E3F97839184659CA00346EE1 /* ResizeOp.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ResizeOp.java; sourceTree = "<group>"; };
+		E3F9783A184659CA00346EE1 /* TestLibrary.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TestLibrary.java; sourceTree = "<group>"; };
+		E3F9783B184659CA00346EE1 /* TextOp.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = TextOp.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 		E3F978181846290600346EE1 = {
 			isa = PBXGroup;
 			children = (
+				E3F97833184659CA00346EE1 /* java-generated */,
 				E3F978231846290600346EE1 /* foo */,
 				E3F978221846290600346EE1 /* Products */,
 			);
@@ -69,6 +84,28 @@
 				E3F978311846426300346EE1 /* foo.h */,
 			);
 			path = foo;
+			sourceTree = "<group>";
+		};
+		E3F97833184659CA00346EE1 /* java-generated */ = {
+			isa = PBXGroup;
+			children = (
+				E3F97834184659CA00346EE1 /* test */,
+			);
+			path = "java-generated";
+			sourceTree = "<group>";
+		};
+		E3F97834184659CA00346EE1 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				E3F97835184659CA00346EE1 /* CropOp.java */,
+				E3F97836184659CA00346EE1 /* Operation.java */,
+				E3F97837184659CA00346EE1 /* Opinst.java */,
+				E3F97838184659CA00346EE1 /* Opstack.java */,
+				E3F97839184659CA00346EE1 /* ResizeOp.java */,
+				E3F9783A184659CA00346EE1 /* TestLibrary.java */,
+				E3F9783B184659CA00346EE1 /* TextOp.java */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F9783C184659CA00346EE1 /* CropOp.java in Sources */,
+				E3F97842184659CA00346EE1 /* TextOp.java in Sources */,
+				E3F9783F184659CA00346EE1 /* Opstack.java in Sources */,
 				E3F978321846426300346EE1 /* foo.cc in Sources */,
+				E3F97840184659CA00346EE1 /* ResizeOp.java in Sources */,
 				E3F978251846290600346EE1 /* main.cpp in Sources */,
+				E3F97841184659CA00346EE1 /* TestLibrary.java in Sources */,
+				E3F9783E184659CA00346EE1 /* Opinst.java in Sources */,
+				E3F9783D184659CA00346EE1 /* Operation.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
